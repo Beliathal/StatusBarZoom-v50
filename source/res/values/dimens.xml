@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+	* Created by Beliathal *
+
+	An overlay for LGSystemUI.apk/res/values/dimens.xml
+	Package="com.android.systemui"
+	
+	****
+	
+	Density-independent pixels
+
+	Density-independent pixels, written as dp (pronounced "dips"), are flexible units that scale to have uniform dimensions 
+	on any screen. They provide a flexible way to accommodate a design across platforms.
+	
+	****
+
+	Scalable pixels (sp)
+
+	Scalable pixels (sp) serve the same function as density-independent pixels (dp), but for fonts. The default value of an 
+	sp is the same as the default value for a dp.
+
+	The primary difference between an sp and a dp is that sp's preserve a user's font settings. Users who have larger text 
+	settings for accessibility will see font sizes match their text size preferences.
+
+-->
+<resources>
+    <dimen name="status_bar_padding_start">8.0dip</dimen>
+    <dimen name="status_bar_padding_end">8.0dip</dimen>
+	<dimen name="status_bar_clock_size">17.0dip</dimen>
+	<dimen name="battery_level_font_size">17.0dip</dimen>
+	<item type="dimen" name="status_bar_icon_scale_factor">1.3</item>
+</resources>
